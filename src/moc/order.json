@@ -1,0 +1,2106 @@
+{
+    "success": true,
+    "order": {
+        "loyaltyDiscount": "11.90",
+        "countryIdentifier": "au",
+        "paymentType": "2",
+        "notes": "Beers plz.",
+        "payableAmount": "103.10",
+        "addressLocation": {},
+        "specials": [
+            {
+                "cost": "35.90",
+                "_id": "urdA2dBYdxbbMUuNqOOy",
+                "type": "1",
+                "name": "2 x Family Traditional",
+                "upsalePrice": "0.00",
+                "discount": "15.90"
+            },
+            {
+                "discount": "12.90",
+                "upsalePrice": "0.00",
+                "cost": "16.90",
+                "_id": "nabgWQL5nCyXKNXMPt5M",
+                "name": "2 X Medium Traditional",
+                "type": "1"
+            },
+            {
+                "cost": "16.90",
+                "upsalePrice": "0.00",
+                "_id": "nabgWQL5nCyXKNXMPt5M",
+                "type": "1",
+                "discount": "10.40",
+                "name": "2 X Medium Traditional"
+            },
+            {
+                "discount": "7.90",
+                "_id": "ByMv83eOPuLwmKJ8j7vJ",
+                "cost": "21.90",
+                "type": "1",
+                "upsalePrice": "0.00",
+                "name": "2 x Medium Classic"
+            }
+        ],
+        "cardLast4": "4242",
+        "balanceTransaction": "txn_1HbkShFUSQcITUEvVu5pHd3W",
+        "halfHalfAdditionalCharges": "1.50",
+        "upsalePrice": "0.00",
+        "voucherDiscount": "0",
+        "address": "",
+        "token": "pm_1H56u6FUSQcITUEvTUgdxPgD",
+        "userId": "g1d6Q0HdHiSHMFbzPucz",
+        "isNewCustomer": false,
+        "paymentIntentId": "pi_1HbkSgFUSQcITUEvqJKGL2vx",
+        "lastName": "Test",
+        "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+        "txnId": "ch_1HbkSgFUSQcITUEvhMNK4YwO",
+        "confirmedAt": 1602583846151,
+        "isInternationCard": true,
+        "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+        "deliveryCost": "0",
+        "merchantCode": 300,
+        "cardNumber": "XXXX - XXXX - XXXX - 4242",
+        "orderStatus": "1",
+        "nthPickupOrder": 100,
+        "firstName": "Raj",
+        "isPreOrderProcessed": false,
+        "isFutureDeliveryDate": false,
+        "deliveryDateTimestamp": 1602585000000,
+        "totalCost": "158.90",
+        "voucherId": "",
+        "specialDiscount": "47.10",
+        "gst": "0.00",
+        "nthDeliveryOrder": 4,
+        "menuItems": [
+            {
+                "isSpecialItem": true,
+                "isHalf": false,
+                "url": "https://firebasestorage.googleapis.com/v0/b/next-order.appspot.com/o/images%2FmenuItems%2Fthumbnail%2F-LEgFV_4kDmBZBv9VVjJ?alt=media&token=bb9ed5c7-f47d-4bd6-acf0-404817f4cd6c",
+                "removedIngredients": [],
+                "name": "amalfi",
+                "urlS3": "https://lacampa.s3.ap-southeast-2.amazonaws.com/public/-LEgFV_4kDmBZBv9VVjJ",
+                "selectedSizes": [
+                    {
+                        "isAbbreviationShow": false,
+                        "isDisplayForSpecialOrHalfHalf": true,
+                        "key": "-L3SOMOEVo5JVnEWec5n",
+                        "date": "2018-01-22T15:54:02+05:30",
+                        "glutenAdditionalCharges": "3",
+                        "price": "14.90",
+                        "isFeaturedSize": false,
+                        "categoryId": "zFAFtW0fhY825QIWUHj7",
+                        "quantity": 1,
+                        "variants": [],
+                        "_id": "rJxmsyNVBee1fcvgEIhc",
+                        "isAvailableGlutenFree": true,
+                        "isAvailable": true,
+                        "name": "Medium",
+                        "isGlutenFree": true
+                    }
+                ],
+                "orderIndex": 0,
+                "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                "selectedIngredients": [
+                    {
+                        "isSelected": true,
+                        "inOrder": true,
+                        "ingredientName": "Napolitana",
+                        "day1": 0,
+                        "day3": 0,
+                        "day2": 0,
+                        "key": "-LEard4j8B4tVAeEKO-k",
+                        "day7": 0,
+                        "day4": 0,
+                        "day5": 0,
+                        "agregateSales": 0,
+                        "ingredientCategory": "LTFLqIRfrqnD4uKgPOZe",
+                        "day6": 0,
+                        "price": "1.30",
+                        "isSelectedExtra": true,
+                        "_id": "3Ti781BtYiCwjLLA1XJ7",
+                        "date": "2018-06-10 09:25"
+                    },
+                    {
+                        "inOrder": true,
+                        "ingredientName": "Bocconcini",
+                        "agregateSales": 0,
+                        "day3": 0,
+                        "isSelected": true,
+                        "day2": 0,
+                        "isSelectedExtra": true,
+                        "day6": 0,
+                        "price": "1.50",
+                        "key": "-LEarsiPUBAqbC7MPmcW",
+                        "day5": 0,
+                        "day7": 0,
+                        "_id": "372KjHJx4peBhvlzkGsn",
+                        "date": "2018-06-10 09:26",
+                        "ingredientCategory": "bgteIPj9ZooIQ1fk3WeU",
+                        "day4": 0,
+                        "day1": 0
+                    },
+                    {
+                        "key": "-LEfvLXBwcHMDSERXI9V",
+                        "date": "2018-06-11 08:59",
+                        "day3": 0,
+                        "ingredientCategory": "iWwtZCA2GxRLE437aG3H",
+                        "day2": 0,
+                        "day6": 0,
+                        "day5": 0,
+                        "day1": 0,
+                        "_id": "1TUEuenvN5ZQyKDKCD6o",
+                        "day4": 0,
+                        "isSelected": true,
+                        "price": "1.90",
+                        "ingredientName": "Prosciutto",
+                        "agregateSales": 0,
+                        "inOrder": true,
+                        "isSelectedExtra": true,
+                        "day7": 0
+                    },
+                    {
+                        "price": "1.90",
+                        "day2": 0,
+                        "key": "-LEdIanrOgzOMp72eACT",
+                        "day3": 0,
+                        "day7": 0,
+                        "day5": 0,
+                        "day6": 0,
+                        "agregateSales": 0,
+                        "isSelected": true,
+                        "_id": "EF7sYYnPi0kmpZbGjKpR",
+                        "date": "2018-06-10 20:47",
+                        "isSelectedExtra": true,
+                        "ingredientCategory": "yRR3p8s2e7bipbXQ6gKq",
+                        "ingredientName": "Sun Dried Tomato",
+                        "day1": 0,
+                        "inOrder": true,
+                        "day4": 0
+                    },
+                    {
+                        "isSelectedExtra": true,
+                        "day7": 0,
+                        "day1": 0,
+                        "ingredientCategory": "q5KfNhNo5Y5W498gyFOo",
+                        "isSelected": true,
+                        "day4": 0,
+                        "day6": 0,
+                        "day5": 0,
+                        "agregateSales": 0,
+                        "day2": 0,
+                        "price": ".90",
+                        "day3": 0,
+                        "ingredientName": "Thyme",
+                        "_id": "WdR3j4PTQOR2t1rHMMti",
+                        "inOrder": true,
+                        "date": "2018-06-10 09:40",
+                        "key": "-LEav5rbqG518__jhFbU"
+                    }
+                ],
+                "dateTimestamp": 1538107020000,
+                "date": "2018-09-28 19:27",
+                "categoryId": "zFAFtW0fhY825QIWUHj7",
+                "isAvailable": true,
+                "specialId": "ByMv83eOPuLwmKJ8j7vJ",
+                "_id": "1DAqPSiVAcUF4HjWrI8o",
+                "selectedExtraIngredients": [],
+                "displayOrder": 0,
+                "isDisplayForSpecialOrHalfHalf": false,
+                "description": "Napolitana, bocconcini, prosciutto, sun dried tomato, pineapple and fresh thyme",
+                "itemType": 0,
+                "boxIndex": 0,
+                "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                "totalRevenue": 250.7
+            },
+            {
+                "url": "https://firebasestorage.googleapis.com/v0/b/next-order.appspot.com/o/images%2FmenuItems%2Fthumbnail%2F-LEg8gRdsOgzdoQIkE9T?alt=media&token=17d1d400-f8e2-4c0f-882a-f9c75d5028ac",
+                "totalRevenue": 26.9,
+                "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                "selectedSizes": [
+                    {
+                        "isDisplayForSpecialOrHalfHalf": true,
+                        "_id": "rJxmsyNVBee1fcvgEIhc",
+                        "key": "-L3SOMOEVo5JVnEWec5n",
+                        "quantity": 1,
+                        "price": "14.90",
+                        "isGlutenFree": true,
+                        "isAvailableGlutenFree": true,
+                        "isAvailable": true,
+                        "categoryId": "zFAFtW0fhY825QIWUHj7",
+                        "name": "Medium",
+                        "variants": [],
+                        "isAbbreviationShow": false,
+                        "glutenAdditionalCharges": "3",
+                        "date": "2018-01-22T15:54:02+05:30",
+                        "isFeaturedSize": false
+                    }
+                ],
+                "removedIngredients": [],
+                "itemType": 0,
+                "dateTimestamp": 1531391340000,
+                "categoryId": "zFAFtW0fhY825QIWUHj7",
+                "urlS3": "https://lacampa.s3.ap-southeast-2.amazonaws.com/public/-LEg8gRdsOgzdoQIkE9T",
+                "_id": "QjcNnaWvjyYKMCbkIlXB",
+                "isSpecialItem": true,
+                "orderIndex": 1,
+                "specialId": "ByMv83eOPuLwmKJ8j7vJ",
+                "name": "messina",
+                "description": "Napolitana, mozzarella,  sliced roma tomato, anchovy and fresh oregano",
+                "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                "isDisplayForSpecialOrHalfHalf": false,
+                "isAvailable": true,
+                "selectedExtraIngredients": [],
+                "date": "2018-07-13 01:59",
+                "displayOrder": 4,
+                "selectedIngredients": [
+                    {
+                        "_id": "3Ti781BtYiCwjLLA1XJ7",
+                        "day5": 0,
+                        "day6": 0,
+                        "day1": 0,
+                        "inOrder": true,
+                        "key": "-LEard4j8B4tVAeEKO-k",
+                        "day7": 0,
+                        "day4": 0,
+                        "ingredientCategory": "LTFLqIRfrqnD4uKgPOZe",
+                        "isSelected": true,
+                        "isSelectedExtra": true,
+                        "agregateSales": 0,
+                        "day3": 0,
+                        "date": "2018-06-10 09:25",
+                        "day2": 0,
+                        "price": "1.30",
+                        "ingredientName": "Napolitana"
+                    },
+                    {
+                        "day6": 0,
+                        "day4": 0,
+                        "agregateSales": 0,
+                        "_id": "0E7gomnc2X1ztAN5yRuQ",
+                        "isSelectedExtra": false,
+                        "day7": 0,
+                        "day5": 0,
+                        "day2": 0,
+                        "inOrder": true,
+                        "price": "1.30",
+                        "day3": 0,
+                        "isSelected": true,
+                        "day1": 0,
+                        "date": "2018-06-11 09:26",
+                        "ingredientName": "Mozzarella",
+                        "ingredientCategory": "bgteIPj9ZooIQ1fk3WeU",
+                        "key": "-LEg0WVOadx1U1gUFi-r"
+                    },
+                    {
+                        "day6": 0,
+                        "isSelectedExtra": false,
+                        "day4": 0,
+                        "agregateSales": 0,
+                        "_id": "abxWCVQOul0L0FjbiUWt",
+                        "inOrder": true,
+                        "day7": 0,
+                        "day5": 0,
+                        "day2": 0,
+                        "key": "-LEasFRs43yB_eEuybd0",
+                        "ingredientName": "Roma Tomato Sliced",
+                        "price": "1.30",
+                        "date": "2018-06-10 09:28",
+                        "day1": 0,
+                        "isSelected": true,
+                        "day3": 0,
+                        "ingredientCategory": "yRR3p8s2e7bipbXQ6gKq"
+                    },
+                    {
+                        "isSelectedExtra": true,
+                        "ingredientName": "Anchovy",
+                        "day2": 0,
+                        "agregateSales": 0,
+                        "isSelected": true,
+                        "day5": 0,
+                        "inOrder": true,
+                        "ingredientCategory": "a40Ni2ms0cUOTTYtrlwC",
+                        "price": "1.30",
+                        "key": "-LEavcnVHmCwpvHNWZZO",
+                        "day6": 0,
+                        "day4": 0,
+                        "day7": 0,
+                        "_id": "1F9Mj2dlUbWbnBhTIyD3",
+                        "day1": 0,
+                        "date": "2018-06-10 09:43",
+                        "day3": 0
+                    },
+                    {
+                        "key": "-LEasnD3z0Pzj5izcAlA",
+                        "day6": 0,
+                        "inOrder": true,
+                        "date": "2018-06-10 09:30",
+                        "day3": 0,
+                        "day1": 0,
+                        "ingredientCategory": "q5KfNhNo5Y5W498gyFOo",
+                        "day5": 0,
+                        "day2": 0,
+                        "_id": "21sw9d34FGNYFCw6N4yK",
+                        "day4": 0,
+                        "ingredientName": "Garlic and Oil",
+                        "isSelected": true,
+                        "day7": 0,
+                        "agregateSales": 0,
+                        "price": ".90",
+                        "isSelectedExtra": true
+                    },
+                    {
+                        "day5": 0,
+                        "isSelectedExtra": true,
+                        "day7": 0,
+                        "day6": 0,
+                        "_id": "0q4TJfDZNPKrRxpgR6Jz",
+                        "price": ".90",
+                        "day4": 0,
+                        "day1": 0,
+                        "day2": 0,
+                        "ingredientName": "Fresh Oregano",
+                        "inOrder": true,
+                        "agregateSales": 0,
+                        "isSelected": true,
+                        "key": "-LEav2B2bXTSNrmGDK-u",
+                        "day3": 0,
+                        "ingredientCategory": "q5KfNhNo5Y5W498gyFOo",
+                        "date": "2018-06-10 09:40"
+                    }
+                ],
+                "isHalf": false,
+                "boxIndex": 1
+            },
+            {
+                "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                "halfIndex": 0,
+                "name": "new meat",
+                "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                "removedIngredients": [],
+                "displayOrder": 0,
+                "whichHalf": 1,
+                "date": "2018-09-18 21:24",
+                "dateTimestamp": 1537250040000,
+                "selectedSizes": [
+                    {
+                        "displayOrder": 0,
+                        "isAvailableGlutenFree": true,
+                        "isFeaturedSize": false,
+                        "name": "Medium",
+                        "categoryId": "bIcqBPjGrPZUHCcl0GEH",
+                        "isAbbreviationShow": false,
+                        "glutenAdditionalCharges": "3",
+                        "quantity": 0.5,
+                        "isGlutenFree": true,
+                        "isAvailable": true,
+                        "isDisplayForSpecialOrHalfHalf": true,
+                        "key": "-L2UnpoA5PnTeeYaa2Sy",
+                        "price": "14.90",
+                        "date": "2018-01-10T16:53:15+05:30",
+                        "_id": "qy3kY8DVxSvoXETgUdog",
+                        "variants": []
+                    }
+                ],
+                "urlS3": "https://lacampa.s3.ap-southeast-2.amazonaws.com/public/08fFLhxsMp7GcF3vyONa",
+                "selectedModifiers": [
+                    {
+                        "displayOrder": 0
+                    }
+                ],
+                "categoryId": "bIcqBPjGrPZUHCcl0GEH",
+                "isSecondHalf": false,
+                "isHalf": true,
+                "selectedIngredients": [
+                    {
+                        "ingredientCategory": "1qzgh5eV5nk89FSNWa52",
+                        "totalOrders": 0,
+                        "ingredientName": "BBQ",
+                        "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                        "day5": 0,
+                        "day3": 0,
+                        "key": "-LEirOjQpm_ErlpVvy_H",
+                        "inOrder": true,
+                        "day6": 0,
+                        "prices": [
+                            {
+                                "_id": "qy3kY8DVxSvoXETgUdog",
+                                "price": "1.00",
+                                "name": "Medium",
+                                "isSelected": true,
+                                "variants": [
+                                    {
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "price": "0000",
+                                        "name": "Gluten Free",
+                                        "isSelected": true
+                                    },
+                                    {
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "price": 0,
+                                        "name": "Vegan",
+                                        "isSelected": true
+                                    }
+                                ]
+                            },
+                            {
+                                "isSelected": true,
+                                "variants": [],
+                                "_id": "FoAXOq9dv06sjLSqoCaU",
+                                "name": "Family",
+                                "price": "3.00"
+                            },
+                            {
+                                "isSelected": true,
+                                "_id": "6cjny5i7yrs2T5eg5a3U",
+                                "variants": [
+                                    {
+                                        "price": 0,
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "isSelected": true,
+                                        "name": "Gluten Free"
+                                    },
+                                    {
+                                        "name": "Vegan",
+                                        "price": 0,
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "isSelected": true
+                                    }
+                                ],
+                                "name": "Large",
+                                "price": "2.00"
+                            }
+                        ],
+                        "price": "1.00",
+                        "isDeleted": false,
+                        "day7": 0,
+                        "transferLoadId": "xxx",
+                        "day4": 0,
+                        "day2": 0,
+                        "day1": 0,
+                        "isSelectedExtra": true,
+                        "dateTimestamp": 1528701060000,
+                        "date": "2018-06-11 22:41",
+                        "isDuplicate": false,
+                        "agregateSales": 0,
+                        "categoryId": "bIcqBPjGrPZUHCcl0GEH",
+                        "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                        "isSelected": true,
+                        "_id": "6kYLxkFGM9I7qo4bRhG4"
+                    },
+                    {
+                        "isSelected": true,
+                        "inOrder": true,
+                        "day6": 0,
+                        "totalOrders": 0,
+                        "day5": 0,
+                        "_id": "0w77BDQrQJfZZSfjmChw",
+                        "isDeleted": false,
+                        "dateTimestamp": 1519689180000,
+                        "agregateSales": 0,
+                        "date": "2018-02-27 16:23",
+                        "day4": 0,
+                        "prices": [
+                            {
+                                "_id": "qy3kY8DVxSvoXETgUdog",
+                                "variants": [
+                                    {
+                                        "price": 0,
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "isSelected": true,
+                                        "name": "Gluten Free"
+                                    },
+                                    {
+                                        "price": 0,
+                                        "isSelected": true,
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "name": "Vegan"
+                                    }
+                                ],
+                                "name": "Medium",
+                                "price": "0.23",
+                                "isSelected": false
+                            },
+                            {
+                                "_id": "FoAXOq9dv06sjLSqoCaU",
+                                "price": "0.23",
+                                "isSelected": false,
+                                "name": "Family",
+                                "variants": []
+                            },
+                            {
+                                "variants": [
+                                    {
+                                        "price": 0,
+                                        "isSelected": true,
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "name": "Gluten Free"
+                                    },
+                                    {
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "isSelected": true,
+                                        "price": 0,
+                                        "name": "Vegan"
+                                    }
+                                ],
+                                "_id": "6cjny5i7yrs2T5eg5a3U",
+                                "isSelected": false,
+                                "name": "Large",
+                                "price": "0.23"
+                            }
+                        ],
+                        "day3": 0,
+                        "day7": 0,
+                        "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                        "day2": 0,
+                        "ingredientCategory": "2tLWvh7IQ09R0AegxPCA",
+                        "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                        "day1": 0,
+                        "isDuplicate": false,
+                        "categoryId": "LTRw0x93kcuqCsfTIdv5",
+                        "key": "-L6LtR0wxIszzN_Z2IyT",
+                        "isSelectedExtra": false,
+                        "ingredientName": "Raspberry",
+                        "transferLoadId": "xxx",
+                        "price": "0.23"
+                    },
+                    {
+                        "day3": 0,
+                        "prices": [
+                            {
+                                "variants": [
+                                    {
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "name": "Gluten Free",
+                                        "price": 0,
+                                        "isSelected": true
+                                    },
+                                    {
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "name": "Vegan",
+                                        "isSelected": true,
+                                        "price": 0
+                                    }
+                                ],
+                                "name": "Medium",
+                                "isSelected": true,
+                                "_id": "qy3kY8DVxSvoXETgUdog",
+                                "price": "1.00"
+                            },
+                            {
+                                "name": "Family",
+                                "isSelected": true,
+                                "price": "1.00",
+                                "variants": [],
+                                "_id": "FoAXOq9dv06sjLSqoCaU"
+                            },
+                            {
+                                "isSelected": true,
+                                "variants": [
+                                    {
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "name": "Gluten Free",
+                                        "isSelected": true,
+                                        "price": 0
+                                    },
+                                    {
+                                        "name": "Vegan",
+                                        "isSelected": true,
+                                        "price": 0,
+                                        "_id": "MU7wQU0ha4R50YfVenoh"
+                                    }
+                                ],
+                                "name": "Large",
+                                "price": "1.00",
+                                "_id": "6cjny5i7yrs2T5eg5a3U"
+                            }
+                        ],
+                        "isSelected": true,
+                        "day2": 0,
+                        "isSelectedExtra": true,
+                        "isDuplicate": false,
+                        "inOrder": true,
+                        "categoryId": "zFAFtW0fhY825QIWUHj7",
+                        "day5": 0,
+                        "ingredientCategory": "5JI2EUOqfwpJ5wsvmhEu",
+                        "price": "1.00",
+                        "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                        "day7": 0,
+                        "date": "2018-06-10 09:45",
+                        "isDeleted": false,
+                        "day4": 0,
+                        "ingredientName": "Button Mushroom",
+                        "dateTimestamp": 1528568100000,
+                        "key": "-LEawG5TE8aslGx7z1ww",
+                        "_id": "431a4SirlgVbgdvoTWm3",
+                        "totalOrders": 0,
+                        "transferLoadId": "xxx",
+                        "day6": 0,
+                        "day1": 0,
+                        "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                        "agregateSales": 0
+                    },
+                    {
+                        "categoryId": "zFAFtW0fhY825QIWUHj7",
+                        "isDeleted": false,
+                        "day2": 0,
+                        "day3": 0,
+                        "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                        "prices": [
+                            {
+                                "name": "Medium",
+                                "_id": "qy3kY8DVxSvoXETgUdog",
+                                "variants": [
+                                    {
+                                        "isSelected": true,
+                                        "name": "Gluten Free",
+                                        "price": 0,
+                                        "_id": "4PtaYKLy52yAYarmp9ww"
+                                    },
+                                    {
+                                        "isSelected": true,
+                                        "price": 0,
+                                        "name": "Vegan",
+                                        "_id": "MU7wQU0ha4R50YfVenoh"
+                                    }
+                                ],
+                                "isSelected": true,
+                                "price": ".90"
+                            },
+                            {
+                                "isSelected": true,
+                                "name": "Family",
+                                "_id": "FoAXOq9dv06sjLSqoCaU",
+                                "variants": [],
+                                "price": ".90"
+                            },
+                            {
+                                "_id": "6cjny5i7yrs2T5eg5a3U",
+                                "name": "Large",
+                                "variants": [
+                                    {
+                                        "price": 0,
+                                        "isSelected": true,
+                                        "name": "Gluten Free",
+                                        "_id": "4PtaYKLy52yAYarmp9ww"
+                                    },
+                                    {
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "isSelected": true,
+                                        "price": 0,
+                                        "name": "Vegan"
+                                    }
+                                ],
+                                "isSelected": true,
+                                "price": ".90"
+                            }
+                        ],
+                        "isDuplicate": false,
+                        "dateTimestamp": 1528567800000,
+                        "day7": 0,
+                        "ingredientName": "Fresh Oregano",
+                        "transferLoadId": "xxx",
+                        "isSelected": true,
+                        "agregateSales": 0,
+                        "ingredientCategory": "7DjE04YsCoHIUkP46IUU",
+                        "inOrder": true,
+                        "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                        "day6": 0,
+                        "key": "-LEav2B2bXTSNrmGDK-u",
+                        "totalOrders": 0,
+                        "day4": 0,
+                        "isSelectedExtra": true,
+                        "_id": "0q4TJfDZNPKrRxpgR6Jz",
+                        "price": ".90",
+                        "date": "2018-06-10 09:40",
+                        "day1": 0,
+                        "day5": 0
+                    },
+                    {
+                        "day2": 0,
+                        "agregateSales": 0,
+                        "isDuplicate": false,
+                        "isSelectedExtra": true,
+                        "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                        "day6": 0,
+                        "date": "2018-06-08 21:43",
+                        "isSelected": true,
+                        "day4": 0,
+                        "day5": 0,
+                        "prices": [
+                            {
+                                "price": ".90",
+                                "variants": [
+                                    {
+                                        "name": "Gluten Free",
+                                        "price": 0,
+                                        "isSelected": true,
+                                        "_id": "4PtaYKLy52yAYarmp9ww"
+                                    },
+                                    {
+                                        "price": 0,
+                                        "name": "Vegan",
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "isSelected": true
+                                    }
+                                ],
+                                "isSelected": true,
+                                "_id": "qy3kY8DVxSvoXETgUdog",
+                                "name": "Medium"
+                            },
+                            {
+                                "name": "Family",
+                                "price": ".90",
+                                "_id": "FoAXOq9dv06sjLSqoCaU",
+                                "isSelected": true,
+                                "variants": []
+                            },
+                            {
+                                "name": "Large",
+                                "variants": [
+                                    {
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "name": "Gluten Free",
+                                        "price": 0,
+                                        "isSelected": true
+                                    },
+                                    {
+                                        "isSelected": true,
+                                        "price": 0,
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "name": "Vegan"
+                                    }
+                                ],
+                                "price": ".90",
+                                "isSelected": true,
+                                "_id": "6cjny5i7yrs2T5eg5a3U"
+                            }
+                        ],
+                        "dateTimestamp": 1528438380000,
+                        "day1": 0,
+                        "key": "-LEUCKftqg05AEESnSnT",
+                        "day3": 0,
+                        "_id": "bOrP3pn3DIS0uDOASDXL",
+                        "isDeleted": false,
+                        "categoryId": "bIcqBPjGrPZUHCcl0GEH",
+                        "ingredientName": "Fresh Basil",
+                        "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                        "price": ".90",
+                        "day7": 0,
+                        "transferLoadId": "xxx",
+                        "totalOrders": 0,
+                        "inOrder": true,
+                        "ingredientCategory": "7DjE04YsCoHIUkP46IUU"
+                    },
+                    {
+                        "ingredientName": "Anchovy",
+                        "isDuplicate": false,
+                        "day3": 0,
+                        "isSelected": true,
+                        "ingredientCategory": "AU7M2qFtlvXv4K7zjcVO",
+                        "_id": "1F9Mj2dlUbWbnBhTIyD3",
+                        "day7": 0,
+                        "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                        "date": "2018-06-10 09:43",
+                        "day4": 0,
+                        "price": "1.30",
+                        "inOrder": true,
+                        "prices": [
+                            {
+                                "isSelected": true,
+                                "_id": "qy3kY8DVxSvoXETgUdog",
+                                "name": "Medium",
+                                "variants": [
+                                    {
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "price": 0,
+                                        "isSelected": true,
+                                        "name": "Gluten Free"
+                                    },
+                                    {
+                                        "name": "Vegan",
+                                        "price": 0,
+                                        "isSelected": true,
+                                        "_id": "MU7wQU0ha4R50YfVenoh"
+                                    }
+                                ],
+                                "price": "1.00"
+                            },
+                            {
+                                "name": "Family",
+                                "price": "1.00",
+                                "isSelected": true,
+                                "variants": [],
+                                "_id": "FoAXOq9dv06sjLSqoCaU"
+                            },
+                            {
+                                "isSelected": true,
+                                "price": "1.00",
+                                "variants": [
+                                    {
+                                        "name": "Gluten Free",
+                                        "price": 0,
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "isSelected": true
+                                    },
+                                    {
+                                        "price": 0,
+                                        "isSelected": true,
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "name": "Vegan"
+                                    }
+                                ],
+                                "_id": "6cjny5i7yrs2T5eg5a3U",
+                                "name": "Large"
+                            }
+                        ],
+                        "isDeleted": false,
+                        "dateTimestamp": 1528567980000,
+                        "day2": 0,
+                        "agregateSales": 0,
+                        "day1": 0,
+                        "isSelectedExtra": true,
+                        "transferLoadId": "xxx",
+                        "day6": 0,
+                        "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                        "day5": 0,
+                        "totalOrders": 0,
+                        "categoryId": "zFAFtW0fhY825QIWUHj7",
+                        "key": "-LEavcnVHmCwpvHNWZZO"
+                    },
+                    {
+                        "_id": "Kx5tF2SHDlnI5mewfWeQ",
+                        "dateTimestamp": 1528654980000,
+                        "ingredientName": "Prawns",
+                        "key": "-LEg6ZO-_Us0F8qZBo4y",
+                        "day6": 0,
+                        "transferLoadId": "xxx",
+                        "day5": 0,
+                        "isSelected": true,
+                        "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                        "day1": 0,
+                        "categoryId": "zFAFtW0fhY825QIWUHj7",
+                        "isDuplicate": false,
+                        "date": "2018-06-11 09:53",
+                        "ingredientCategory": "AU7M2qFtlvXv4K7zjcVO",
+                        "day2": 0,
+                        "inOrder": true,
+                        "day7": 0,
+                        "agregateSales": 0,
+                        "prices": [
+                            {
+                                "name": "Medium",
+                                "variants": [
+                                    {
+                                        "price": 0,
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "isSelected": true,
+                                        "name": "Gluten Free"
+                                    },
+                                    {
+                                        "price": 0,
+                                        "name": "Vegan",
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "isSelected": true
+                                    }
+                                ],
+                                "_id": "qy3kY8DVxSvoXETgUdog",
+                                "isSelected": true,
+                                "price": "1.50"
+                            },
+                            {
+                                "_id": "FoAXOq9dv06sjLSqoCaU",
+                                "price": "1.50",
+                                "name": "Family",
+                                "isSelected": true,
+                                "variants": []
+                            },
+                            {
+                                "_id": "6cjny5i7yrs2T5eg5a3U",
+                                "isSelected": true,
+                                "name": "Large",
+                                "variants": [
+                                    {
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "isSelected": true,
+                                        "name": "Gluten Free",
+                                        "price": 0
+                                    },
+                                    {
+                                        "price": 0,
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "isSelected": true,
+                                        "name": "Vegan"
+                                    }
+                                ],
+                                "price": "1.50"
+                            }
+                        ],
+                        "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                        "totalOrders": 0,
+                        "day3": 0,
+                        "day4": 0,
+                        "isDeleted": false,
+                        "isSelectedExtra": true,
+                        "price": "1.90"
+                    },
+                    {
+                        "isSelectedExtra": true,
+                        "ingredientCategory": "Eb5uD3YqdQHYyxLzwiYF",
+                        "isDuplicate": false,
+                        "isSelected": true,
+                        "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                        "day1": 0,
+                        "isDeleted": false,
+                        "categoryId": "RBuZEaxfqL3oWIESTzYO",
+                        "day3": 0,
+                        "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                        "ingredientName": "Mozzarella",
+                        "dateTimestamp": 1531895160000,
+                        "price": "1.20",
+                        "day2": 0,
+                        "_id": "0E7gomnc2X1ztAN5yRuQ",
+                        "agregateSales": 0,
+                        "transferLoadId": "xxx",
+                        "day6": 0,
+                        "key": "-LHhEv6sJG35uug4Im1O",
+                        "day4": 0,
+                        "day7": 0,
+                        "inOrder": true,
+                        "day5": 0,
+                        "prices": [
+                            {
+                                "_id": "qy3kY8DVxSvoXETgUdog",
+                                "price": "1.50",
+                                "variants": [
+                                    {
+                                        "isSelected": true,
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "price": 0,
+                                        "name": "Gluten Free"
+                                    },
+                                    {
+                                        "name": "Vegan",
+                                        "isSelected": true,
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "price": 0
+                                    }
+                                ],
+                                "name": "Medium",
+                                "isSelected": true
+                            },
+                            {
+                                "price": "1.50",
+                                "variants": [],
+                                "name": "Family",
+                                "isSelected": true,
+                                "_id": "FoAXOq9dv06sjLSqoCaU"
+                            },
+                            {
+                                "price": "1.50",
+                                "variants": [
+                                    {
+                                        "isSelected": true,
+                                        "price": 0,
+                                        "name": "Gluten Free",
+                                        "_id": "4PtaYKLy52yAYarmp9ww"
+                                    },
+                                    {
+                                        "isSelected": true,
+                                        "price": 0,
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "name": "Vegan"
+                                    }
+                                ],
+                                "isSelected": true,
+                                "name": "Large",
+                                "_id": "6cjny5i7yrs2T5eg5a3U"
+                            }
+                        ],
+                        "totalOrders": 0,
+                        "date": "2018-07-18 21:56"
+                    },
+                    {
+                        "isSelected": true,
+                        "totalOrders": 0,
+                        "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                        "isSelectedExtra": true,
+                        "isDuplicate": false,
+                        "ingredientCategory": "FGfNbVzGPxF8cx6JCkCb",
+                        "isDeleted": false,
+                        "categoryId": "zFAFtW0fhY825QIWUHj7",
+                        "day1": 0,
+                        "ingredientName": "Smoked Bacon",
+                        "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                        "day3": 0,
+                        "dateTimestamp": 1528567920000,
+                        "day2": 0,
+                        "_id": "7JGhii5uYUrngyeuI0lC",
+                        "day4": 0,
+                        "day7": 0,
+                        "prices": [
+                            {
+                                "name": "Medium",
+                                "variants": [
+                                    {
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "isSelected": true,
+                                        "name": "Gluten Free",
+                                        "price": 0
+                                    },
+                                    {
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "isSelected": true,
+                                        "name": "Vegan",
+                                        "price": 0
+                                    }
+                                ],
+                                "_id": "qy3kY8DVxSvoXETgUdog",
+                                "isSelected": true,
+                                "price": "1.90"
+                            },
+                            {
+                                "name": "Family",
+                                "variants": [],
+                                "isSelected": true,
+                                "_id": "FoAXOq9dv06sjLSqoCaU",
+                                "price": "1.90"
+                            },
+                            {
+                                "_id": "6cjny5i7yrs2T5eg5a3U",
+                                "price": "1.90",
+                                "isSelected": true,
+                                "variants": [
+                                    {
+                                        "name": "Gluten Free",
+                                        "isSelected": true,
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "price": 0
+                                    },
+                                    {
+                                        "name": "Vegan",
+                                        "isSelected": true,
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "price": 0
+                                    }
+                                ],
+                                "name": "Large"
+                            }
+                        ],
+                        "price": "1.50",
+                        "day6": 0,
+                        "key": "-LEavRZwjG1pBPcER0dQ",
+                        "transferLoadId": "xxx",
+                        "agregateSales": 0,
+                        "date": "2018-06-10 09:42",
+                        "day5": 0,
+                        "inOrder": true
+                    },
+                    {
+                        "isSelected": true,
+                        "date": "2018-06-10 09:42",
+                        "isDeleted": false,
+                        "ingredientName": "Roast Chicken",
+                        "categoryId": "zFAFtW0fhY825QIWUHj7",
+                        "key": "-LEavWSJTdUSeBp1hyWd",
+                        "day4": 0,
+                        "transferLoadId": "xxx",
+                        "_id": "H6f7re4amlQLpFozjuby",
+                        "prices": [
+                            {
+                                "name": "Medium",
+                                "isSelected": true,
+                                "_id": "qy3kY8DVxSvoXETgUdog",
+                                "variants": [
+                                    {
+                                        "price": 0,
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "isSelected": true,
+                                        "name": "Gluten Free"
+                                    },
+                                    {
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "isSelected": true,
+                                        "name": "Vegan",
+                                        "price": 0
+                                    }
+                                ],
+                                "price": "1.90"
+                            },
+                            {
+                                "_id": "FoAXOq9dv06sjLSqoCaU",
+                                "price": "1.90",
+                                "variants": [],
+                                "isSelected": true,
+                                "name": "Family"
+                            },
+                            {
+                                "price": "1.90",
+                                "_id": "6cjny5i7yrs2T5eg5a3U",
+                                "name": "Large",
+                                "isSelected": true,
+                                "variants": [
+                                    {
+                                        "name": "Gluten Free",
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "isSelected": true,
+                                        "price": 0
+                                    },
+                                    {
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "isSelected": true,
+                                        "price": 0,
+                                        "name": "Vegan"
+                                    }
+                                ]
+                            }
+                        ],
+                        "day7": 0,
+                        "totalOrders": 0,
+                        "day2": 0,
+                        "isDuplicate": false,
+                        "day6": 0,
+                        "isSelectedExtra": true,
+                        "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                        "price": "1.50",
+                        "dateTimestamp": 1528567920000,
+                        "ingredientCategory": "FGfNbVzGPxF8cx6JCkCb",
+                        "inOrder": true,
+                        "agregateSales": 0,
+                        "day5": 0,
+                        "day1": 0,
+                        "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                        "day3": 0
+                    },
+                    {
+                        "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                        "isSelectedExtra": true,
+                        "date": "2018-06-10 09:29",
+                        "isDuplicate": false,
+                        "prices": [
+                            {
+                                "_id": "qy3kY8DVxSvoXETgUdog",
+                                "name": "Medium",
+                                "variants": [
+                                    {
+                                        "isSelected": true,
+                                        "name": "Gluten Free",
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "price": 0
+                                    },
+                                    {
+                                        "price": 0,
+                                        "isSelected": true,
+                                        "name": "Vegan",
+                                        "_id": "MU7wQU0ha4R50YfVenoh"
+                                    }
+                                ],
+                                "isSelected": true,
+                                "price": "1.50"
+                            },
+                            {
+                                "isSelected": true,
+                                "price": "1.50",
+                                "name": "Family",
+                                "variants": [],
+                                "_id": "FoAXOq9dv06sjLSqoCaU"
+                            },
+                            {
+                                "name": "Large",
+                                "variants": [
+                                    {
+                                        "isSelected": true,
+                                        "name": "Gluten Free",
+                                        "price": 0,
+                                        "_id": "4PtaYKLy52yAYarmp9ww"
+                                    },
+                                    {
+                                        "_id": "MU7wQU0ha4R50YfVenoh",
+                                        "name": "Vegan",
+                                        "price": 0,
+                                        "isSelected": true
+                                    }
+                                ],
+                                "_id": "6cjny5i7yrs2T5eg5a3U",
+                                "isSelected": true,
+                                "price": "1.50"
+                            }
+                        ],
+                        "day1": 0,
+                        "ingredientCategory": "FGfNbVzGPxF8cx6JCkCb",
+                        "day2": 0,
+                        "agregateSales": 0,
+                        "dateTimestamp": 1528567140000,
+                        "day3": 0,
+                        "day4": 0,
+                        "ingredientName": "Sopressa Hot Salami",
+                        "day6": 0,
+                        "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                        "transferLoadId": "xxx",
+                        "isSelected": true,
+                        "totalOrders": 0,
+                        "inOrder": true,
+                        "isDeleted": false,
+                        "key": "-LEasXCugA14T6S2BFLj",
+                        "_id": "Zi5TK4Vl6f8hKWfaoewq",
+                        "day5": 0,
+                        "day7": 0,
+                        "categoryId": "zFAFtW0fhY825QIWUHj7",
+                        "price": "1.50"
+                    },
+                    {
+                        "ingredientCategory": "ugJ2cvQGA2I6mU11UEpk",
+                        "prices": [
+                            {
+                                "variants": [
+                                    {
+                                        "price": 0,
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "name": "Gluten Free",
+                                        "isSelected": true
+                                    },
+                                    {
+                                        "price": 0,
+                                        "name": "Vegan",
+                                        "isSelected": true,
+                                        "_id": "MU7wQU0ha4R50YfVenoh"
+                                    }
+                                ],
+                                "_id": "qy3kY8DVxSvoXETgUdog",
+                                "price": "1.50",
+                                "isSelected": true,
+                                "name": "Medium"
+                            },
+                            {
+                                "_id": "FoAXOq9dv06sjLSqoCaU",
+                                "isSelected": true,
+                                "name": "Family",
+                                "variants": [],
+                                "price": "1.50"
+                            },
+                            {
+                                "variants": [
+                                    {
+                                        "_id": "4PtaYKLy52yAYarmp9ww",
+                                        "name": "Gluten Free",
+                                        "price": 0,
+                                        "isSelected": true
+                                    },
+                                    {
+                                        "isSelected": true,
+                                        "price": 0,
+                                        "name": "Vegan",
+                                        "_id": "MU7wQU0ha4R50YfVenoh"
+                                    }
+                                ],
+                                "isSelected": true,
+                                "price": "1.50",
+                                "_id": "6cjny5i7yrs2T5eg5a3U",
+                                "name": "Large"
+                            }
+                        ],
+                        "day5": 0,
+                        "isSelectedExtra": true,
+                        "day7": 0,
+                        "day1": 0,
+                        "_id": "SZpbTtns3DIVNGqY3AMd",
+                        "isSelected": true,
+                        "day3": 0,
+                        "day6": 0,
+                        "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                        "day2": 0,
+                        "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                        "dateTimestamp": 1532307660000,
+                        "key": "-LI4pRIy3vu6hrobH78F",
+                        "day4": 0,
+                        "price": "1.00",
+                        "categoryId": "WqeZYBJK7Uu9utvfChIE",
+                        "agregateSales": 0,
+                        "inOrder": true,
+                        "isDeleted": false,
+                        "isDuplicate": false,
+                        "date": "2018-07-23 16:31",
+                        "transferLoadId": "xxx",
+                        "totalOrders": 0,
+                        "ingredientName": "Shredded Ham"
+                    }
+                ],
+                "isAvailable": true,
+                "totalRevenue": 764.45,
+                "description": "Tomato, mozzarella, ham, sopressa hot salami, roast chicken and smoked bacon",
+                "itemType": 0,
+                "selectedExtraIngredients": [],
+                "orderIndex": 2,
+                "_id": "08fFLhxsMp7GcF3vyONa",
+                "url": "https://firebasestorage.googleapis.com/v0/b/next-order.appspot.com/o/images%2FmenuItems%2Fthumbnail%2F-LEhV1VZDCll6XCA8TNe?alt=media&token=7363375b-76bb-4f35-9824-19c9b21cabc6",
+                "baseModifierId": ""
+            },
+            {
+                "isSecondHalf": true,
+                "selectedSizes": [
+                    {
+                        "isDisplayForSpecialOrHalfHalf": true,
+                        "isAvailable": true,
+                        "_id": "qy3kY8DVxSvoXETgUdog",
+                        "variants": [],
+                        "quantity": 0.5,
+                        "date": "2018-01-10T16:53:15+05:30",
+                        "price": "13.90",
+                        "isAvailableGlutenFree": true,
+                        "isGlutenFree": true,
+                        "isFeaturedSize": false,
+                        "categoryId": "bIcqBPjGrPZUHCcl0GEH",
+                        "name": "Medium",
+                        "key": "-L2UnpoA5PnTeeYaa2Sy",
+                        "glutenAdditionalCharges": "3",
+                        "isAbbreviationShow": false
+                    }
+                ],
+                "totalRevenue": 63.65,
+                "name": "american",
+                "description": "Tomato, mozzarella, sopressa hot salami, red capsicum",
+                "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                "halfIndex": 0,
+                "displayOrder": 3,
+                "itemType": 0,
+                "_id": "8aaK92Pjhs7d3XRtOBw6",
+                "isHalf": true,
+                "dateTimestamp": 1531392300000,
+                "date": "2018-07-13 02:15",
+                "urlS3": "https://lacampa.s3.ap-southeast-2.amazonaws.com/public/-LEgK1nV_HzbjyjxvDdx",
+                "whichHalf": 2,
+                "url": "https://firebasestorage.googleapis.com/v0/b/next-order.appspot.com/o/images%2FmenuItems%2Fthumbnail%2F-LEgK1nV_HzbjyjxvDdx?alt=media&token=ae7aa584-36d0-439a-a92c-a31235ea92e6",
+                "selectedExtraIngredients": [],
+                "isAvailable": true,
+                "categoryId": "bIcqBPjGrPZUHCcl0GEH",
+                "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                "orderIndex": 3,
+                "selectedIngredients": [
+                    {
+                        "day2": 0,
+                        "day3": 0,
+                        "day1": 0,
+                        "isSelectedExtra": true,
+                        "day7": 0,
+                        "price": "1.00",
+                        "ingredientName": "Tomato pizza",
+                        "agregateSales": 0,
+                        "day5": 0,
+                        "day6": 0,
+                        "key": "-LET1Kr8Ts3-jFl2jzHs",
+                        "day4": 0,
+                        "ingredientCategory": "TbMPtKzoNN3Vzg6dr6d8",
+                        "inOrder": true,
+                        "_id": "d1L2x9gJhkx2bGMBAdG4",
+                        "date": "2018-06-08 16:15",
+                        "isSelected": true
+                    },
+                    {
+                        "day2": 0,
+                        "date": "2018-06-08 16:15",
+                        "day5": 0,
+                        "inOrder": true,
+                        "agregateSales": 0,
+                        "price": "1.50",
+                        "day1": 0,
+                        "_id": "0E7gomnc2X1ztAN5yRuQ",
+                        "day3": 0,
+                        "day7": 0,
+                        "day4": 0,
+                        "ingredientCategory": "jfXroFRc77BT0eO0duPI",
+                        "isSelectedExtra": true,
+                        "ingredientName": "Mozzarella",
+                        "isSelected": true,
+                        "key": "-LET1E4j8NZ_LX3oS2QC",
+                        "day6": 0
+                    },
+                    {
+                        "ingredientName": "Sopressa Hot Salami",
+                        "day4": 0,
+                        "price": "1.50",
+                        "agregateSales": 0,
+                        "day1": 0,
+                        "_id": "Zi5TK4Vl6f8hKWfaoewq",
+                        "day2": 0,
+                        "day3": 0,
+                        "day6": 0,
+                        "inOrder": true,
+                        "isSelected": true,
+                        "day7": 0,
+                        "key": "-LEUAg_FnZO1VqWLfX0_",
+                        "ingredientCategory": "mv7bs7SOD87xalBwBNR2",
+                        "date": "2018-06-08 21:36",
+                        "isSelectedExtra": true,
+                        "day5": 0
+                    },
+                    {
+                        "date": "2018-06-08 16:23",
+                        "day5": 0,
+                        "day6": 0,
+                        "_id": "3r5QMBkIxJOw2zQ4bJeR",
+                        "day2": 0,
+                        "inOrder": true,
+                        "key": "-LET33sF40I-VDNNgFeG",
+                        "price": "1.00",
+                        "ingredientName": "Red Capsicum",
+                        "isSelectedExtra": true,
+                        "day4": 0,
+                        "day3": 0,
+                        "ingredientCategory": "AARC223uWoYFuqaYjG8n",
+                        "agregateSales": 0,
+                        "day1": 0,
+                        "day7": 0,
+                        "isSelected": true
+                    }
+                ],
+                "removedIngredients": []
+            },
+            {
+                "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                "urlS3": "https://lacampa.s3.ap-southeast-2.amazonaws.com/public/-LEhTONBJhx3lXrnToHB",
+                "url": "https://firebasestorage.googleapis.com/v0/b/next-order.appspot.com/o/images%2FmenuItems%2Fthumbnail%2F-LEhTONBJhx3lXrnToHB?alt=media&token=0f6e5f40-852c-4b2f-8608-1d2816e1c130",
+                "totalRevenue": 1290.25,
+                "categoryId": "bIcqBPjGrPZUHCcl0GEH",
+                "orderIndex": 4,
+                "name": "hawaiian",
+                "isAvailable": true,
+                "description": "Tomato, mozzarella, ham and pineapple",
+                "isHalf": false,
+                "removedIngredients": [
+                    {
+                        "ingredientCategory": "TbMPtKzoNN3Vzg6dr6d8",
+                        "day3": 0,
+                        "day4": 0,
+                        "key": "-LET1Kr8Ts3-jFl2jzHs",
+                        "agregateSales": 0,
+                        "price": "1.00",
+                        "day1": 0,
+                        "day6": 0,
+                        "day7": 0,
+                        "ingredientName": "Tomato pizza",
+                        "date": "2018-06-08 16:15",
+                        "inOrder": false,
+                        "isSelectedExtra": true,
+                        "isSelected": true,
+                        "day5": 0,
+                        "day2": 0,
+                        "_id": "d1L2x9gJhkx2bGMBAdG4"
+                    }
+                ],
+                "dateTimestamp": 1531392300000,
+                "date": "2018-07-13 02:15",
+                "_id": "9zJhMs6KpD8AuFGNaU8j",
+                "selectedExtraIngredients": [
+                    {
+                        "ingredientName": "Roast Chicken",
+                        "day6": 0,
+                        "day3": 0,
+                        "price": 1.9,
+                        "isSelected": false,
+                        "day2": 0,
+                        "key": "-LEUABUnqfT4NyqKgN17",
+                        "agregateSales": 5.699999999999999,
+                        "_id": "H6f7re4amlQLpFozjuby",
+                        "day1": 0,
+                        "ingredientCategory": "mv7bs7SOD87xalBwBNR2",
+                        "day4": 0,
+                        "date": "2018-06-08 21:34",
+                        "day7": 0,
+                        "currentDay": "5",
+                        "totalOrders": 3,
+                        "quantity": 2,
+                        "sizeId": "qy3kY8DVxSvoXETgUdog",
+                        "isSelectedExtra": true,
+                        "day5": 5.699999999999999
+                    }
+                ],
+                "selectedSizes": [
+                    {
+                        "date": "2018-01-10T16:53:15+05:30",
+                        "name": "Medium",
+                        "_id": "qy3kY8DVxSvoXETgUdog",
+                        "price": "12.90",
+                        "variants": [
+                            {
+                                "name": "Gluten Free",
+                                "isClicked": false,
+                                "isSelected": true,
+                                "isAvailable": true,
+                                "quantity": 1,
+                                "_id": "4PtaYKLy52yAYarmp9ww",
+                                "price": "3"
+                            }
+                        ],
+                        "isDisabled": false,
+                        "isGlutenFree": true,
+                        "key": "-L2UnpoA5PnTeeYaa2Sy",
+                        "isAvailableGlutenFree": true,
+                        "categoryId": "bIcqBPjGrPZUHCcl0GEH",
+                        "isAvailable": true,
+                        "quantity": 1,
+                        "glutenAdditionalCharges": "3",
+                        "isFeaturedSize": false,
+                        "isAbbreviationShow": false
+                    }
+                ],
+                "displayOrder": 4,
+                "selectedIngredients": [
+                    {
+                        "ingredientName": "Mozzarella",
+                        "inOrder": true,
+                        "day4": 0,
+                        "key": "-LET1E4j8NZ_LX3oS2QC",
+                        "price": "1.50",
+                        "day2": 0,
+                        "day5": 0,
+                        "isSelected": true,
+                        "_id": "0E7gomnc2X1ztAN5yRuQ",
+                        "day6": 0,
+                        "date": "2018-06-08 16:15",
+                        "ingredientCategory": "jfXroFRc77BT0eO0duPI",
+                        "day3": 0,
+                        "day7": 0,
+                        "agregateSales": 0,
+                        "day1": 0,
+                        "isSelectedExtra": true
+                    },
+                    {
+                        "ingredientName": "Shredded Ham",
+                        "inOrder": true,
+                        "day2": 0,
+                        "day7": 0,
+                        "day4": 0,
+                        "key": "-LET1Qc60Xbya13tvMOl",
+                        "isSelectedExtra": true,
+                        "agregateSales": 0,
+                        "day1": 0,
+                        "_id": "SZpbTtns3DIVNGqY3AMd",
+                        "day6": 0,
+                        "price": "1.50",
+                        "day3": 0,
+                        "date": "2018-06-08 16:16",
+                        "day5": 0,
+                        "ingredientCategory": "mv7bs7SOD87xalBwBNR2",
+                        "isSelected": true
+                    },
+                    {
+                        "day7": 0,
+                        "ingredientName": "Pineapple",
+                        "day6": 0,
+                        "day5": 0,
+                        "_id": "R65lXhZrZCF3wuvJwY7p",
+                        "inOrder": true,
+                        "day2": 0,
+                        "day1": 0,
+                        "key": "-LET1VTZax_EQlVZ7kr1",
+                        "isSelected": true,
+                        "day3": 0,
+                        "price": "1.00",
+                        "isSelectedExtra": true,
+                        "agregateSales": 0,
+                        "ingredientCategory": "AARC223uWoYFuqaYjG8n",
+                        "day4": 0,
+                        "date": "2018-06-08 16:16"
+                    }
+                ],
+                "itemType": 0
+            },
+            {
+                "isHalf": false,
+                "selectedSizes": [
+                    {
+                        "isGlutenFree": true,
+                        "price": "14.90",
+                        "glutenAdditionalCharges": "3",
+                        "isAvailableGlutenFree": true,
+                        "isAbbreviationShow": false,
+                        "name": "Medium",
+                        "quantity": 2,
+                        "isAvailable": true,
+                        "date": "2018-01-10T16:53:15+05:30",
+                        "variants": [],
+                        "_id": "qy3kY8DVxSvoXETgUdog",
+                        "categoryId": "bIcqBPjGrPZUHCcl0GEH",
+                        "key": "-L2UnpoA5PnTeeYaa2Sy",
+                        "isFeaturedSize": false
+                    }
+                ],
+                "isAvailable": true,
+                "orderIndex": 5,
+                "displayOrder": 20,
+                "selectedIngredients": [
+                    {
+                        "ingredientName": "Tomato pizza",
+                        "date": "2018-06-08 16:15",
+                        "day5": 0,
+                        "day6": 0,
+                        "day3": 0,
+                        "price": "1.00",
+                        "isSelected": true,
+                        "day7": 0,
+                        "key": "-LET1Kr8Ts3-jFl2jzHs",
+                        "day4": 0,
+                        "agregateSales": 0,
+                        "ingredientCategory": "TbMPtKzoNN3Vzg6dr6d8",
+                        "_id": "d1L2x9gJhkx2bGMBAdG4",
+                        "day1": 0,
+                        "isSelectedExtra": true,
+                        "inOrder": true,
+                        "day2": 0
+                    },
+                    {
+                        "isSelectedExtra": true,
+                        "key": "-LET1E4j8NZ_LX3oS2QC",
+                        "price": "1.50",
+                        "day3": 0,
+                        "inOrder": true,
+                        "ingredientName": "Mozzarella",
+                        "day4": 0,
+                        "day7": 0,
+                        "day6": 0,
+                        "ingredientCategory": "jfXroFRc77BT0eO0duPI",
+                        "date": "2018-06-08 16:15",
+                        "day5": 0,
+                        "agregateSales": 0,
+                        "_id": "0E7gomnc2X1ztAN5yRuQ",
+                        "day1": 0,
+                        "isSelected": true,
+                        "day2": 0
+                    },
+                    {
+                        "isSelectedExtra": true,
+                        "day5": 0,
+                        "ingredientName": "Shredded Ham",
+                        "isSelected": true,
+                        "day3": 0,
+                        "day2": 0,
+                        "date": "2018-06-08 16:16",
+                        "day1": 0,
+                        "inOrder": true,
+                        "day7": 0,
+                        "day4": 0,
+                        "agregateSales": 0,
+                        "day6": 0,
+                        "ingredientCategory": "mv7bs7SOD87xalBwBNR2",
+                        "price": "1.50",
+                        "key": "-LET1Qc60Xbya13tvMOl",
+                        "_id": "SZpbTtns3DIVNGqY3AMd"
+                    },
+                    {
+                        "day3": 0,
+                        "day4": 0,
+                        "ingredientName": "Smoked Bacon",
+                        "isSelectedExtra": true,
+                        "day2": 0,
+                        "key": "-LEUAMcXuhizk5I1JnZq",
+                        "price": "1.90",
+                        "agregateSales": 0,
+                        "day7": 0,
+                        "date": "2018-06-08 21:34",
+                        "day6": 0,
+                        "_id": "7JGhii5uYUrngyeuI0lC",
+                        "ingredientCategory": "mv7bs7SOD87xalBwBNR2",
+                        "inOrder": true,
+                        "isSelected": true,
+                        "day1": 0,
+                        "day5": 0
+                    },
+                    {
+                        "date": "2018-06-08 21:36",
+                        "day2": 0,
+                        "day6": 0,
+                        "agregateSales": 0,
+                        "day7": 0,
+                        "inOrder": true,
+                        "isSelected": true,
+                        "key": "-LEUAg_FnZO1VqWLfX0_",
+                        "ingredientCategory": "mv7bs7SOD87xalBwBNR2",
+                        "day3": 0,
+                        "isSelectedExtra": true,
+                        "price": "1.50",
+                        "_id": "Zi5TK4Vl6f8hKWfaoewq",
+                        "day1": 0,
+                        "ingredientName": "Sopressa Hot Salami",
+                        "day5": 0,
+                        "day4": 0
+                    },
+                    {
+                        "day6": 0,
+                        "ingredientName": "Onion",
+                        "day7": 0,
+                        "price": "1.00",
+                        "day4": 0,
+                        "inOrder": true,
+                        "date": "2018-06-08 16:22",
+                        "day5": 0,
+                        "day1": 0,
+                        "_id": "3OKEgAsFMJgGDZfYaIFM",
+                        "isSelectedExtra": true,
+                        "ingredientCategory": "AARC223uWoYFuqaYjG8n",
+                        "agregateSales": 0,
+                        "key": "-LET2tUuDB7tsw3vKYOX",
+                        "day3": 0,
+                        "isSelected": true,
+                        "day2": 0
+                    },
+                    {
+                        "_id": "431a4SirlgVbgdvoTWm3",
+                        "day6": 0,
+                        "key": "-LET3-oObGR7SC039dmI",
+                        "ingredientCategory": "AARC223uWoYFuqaYjG8n",
+                        "day5": 0,
+                        "isSelectedExtra": true,
+                        "ingredientName": "Button Mushroom",
+                        "agregateSales": 0,
+                        "day3": 0,
+                        "day4": 0,
+                        "date": "2018-06-08 16:23",
+                        "day7": 0,
+                        "price": "1.00",
+                        "day2": 0,
+                        "inOrder": true,
+                        "isSelected": true,
+                        "day1": 0
+                    },
+                    {
+                        "agregateSales": 0,
+                        "ingredientCategory": "AARC223uWoYFuqaYjG8n",
+                        "price": "1.00",
+                        "_id": "3r5QMBkIxJOw2zQ4bJeR",
+                        "day3": 0,
+                        "day4": 0,
+                        "day5": 0,
+                        "day6": 0,
+                        "ingredientName": "Red Capsicum",
+                        "key": "-LET33sF40I-VDNNgFeG",
+                        "isSelected": true,
+                        "date": "2018-06-08 16:23",
+                        "day7": 0,
+                        "isSelectedExtra": true,
+                        "day2": 0,
+                        "day1": 0,
+                        "inOrder": true
+                    }
+                ],
+                "itemType": 0,
+                "date": "2018-07-13 02:07",
+                "description": "Tomato, mozzarella, ham,mushroom, capsicum, onion, smoked bacon,sopressa hot salami",
+                "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                "url": "https://firebasestorage.googleapis.com/v0/b/next-order.appspot.com/o/images%2FmenuItems%2Fthumbnail%2F-LDgQDtAjQ0RRHii0ESF?alt=media&token=4735b038-e2c9-4358-83d8-c70d67c1d1f3",
+                "removedIngredients": [],
+                "totalRevenue": 3236.2,
+                "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                "categoryId": "bIcqBPjGrPZUHCcl0GEH",
+                "selectedExtraIngredients": [],
+                "dateTimestamp": 1531391820000,
+                "name": "chef special",
+                "_id": "y2T5lUHgemh7Wz3RSToZ",
+                "urlS3": "https://lacampa.s3.ap-southeast-2.amazonaws.com/public/-LDgQDtAjQ0RRHii0ESF"
+            },
+            {
+                "orderIndex": 6,
+                "selectedIngredients": [
+                    {
+                        "inOrder": true,
+                        "day6": 0,
+                        "_id": "d1L2x9gJhkx2bGMBAdG4",
+                        "key": "-LET1Kr8Ts3-jFl2jzHs",
+                        "day2": 0,
+                        "ingredientCategory": "TbMPtKzoNN3Vzg6dr6d8",
+                        "ingredientName": "Tomato pizza",
+                        "day7": 0,
+                        "day5": 0,
+                        "day4": 0,
+                        "day1": 0,
+                        "date": "2018-06-08 16:15",
+                        "price": "1.00",
+                        "agregateSales": 0,
+                        "isSelectedExtra": true,
+                        "isSelected": true,
+                        "day3": 0
+                    },
+                    {
+                        "day1": 0,
+                        "day6": 0,
+                        "_id": "0E7gomnc2X1ztAN5yRuQ",
+                        "day3": 0,
+                        "agregateSales": 0,
+                        "isSelectedExtra": true,
+                        "day5": 0,
+                        "date": "2018-06-08 16:15",
+                        "ingredientCategory": "jfXroFRc77BT0eO0duPI",
+                        "day2": 0,
+                        "day7": 0,
+                        "key": "-LET1E4j8NZ_LX3oS2QC",
+                        "day4": 0,
+                        "inOrder": true,
+                        "price": "1.50",
+                        "ingredientName": "Mozzarella",
+                        "isSelected": true
+                    },
+                    {
+                        "inOrder": true,
+                        "isSelected": true,
+                        "price": "1.50",
+                        "day4": 0,
+                        "day3": 0,
+                        "day6": 0,
+                        "day2": 0,
+                        "_id": "SZpbTtns3DIVNGqY3AMd",
+                        "day5": 0,
+                        "day1": 0,
+                        "key": "-LET1Qc60Xbya13tvMOl",
+                        "isSelectedExtra": true,
+                        "ingredientName": "Shredded Ham",
+                        "date": "2018-06-08 16:16",
+                        "ingredientCategory": "mv7bs7SOD87xalBwBNR2",
+                        "agregateSales": 0,
+                        "day7": 0
+                    },
+                    {
+                        "isSelectedExtra": true,
+                        "date": "2018-06-08 21:34",
+                        "ingredientCategory": "mv7bs7SOD87xalBwBNR2",
+                        "agregateSales": 0,
+                        "_id": "7JGhii5uYUrngyeuI0lC",
+                        "day6": 0,
+                        "key": "-LEUAMcXuhizk5I1JnZq",
+                        "day3": 0,
+                        "day2": 0,
+                        "day4": 0,
+                        "day5": 0,
+                        "price": "1.90",
+                        "ingredientName": "Smoked Bacon",
+                        "day7": 0,
+                        "day1": 0,
+                        "isSelected": true,
+                        "inOrder": true
+                    },
+                    {
+                        "day6": 0,
+                        "agregateSales": 0,
+                        "price": "1.50",
+                        "isSelected": true,
+                        "isSelectedExtra": true,
+                        "_id": "Zi5TK4Vl6f8hKWfaoewq",
+                        "ingredientCategory": "mv7bs7SOD87xalBwBNR2",
+                        "day5": 0,
+                        "day7": 0,
+                        "day1": 0,
+                        "day2": 0,
+                        "key": "-LEUAg_FnZO1VqWLfX0_",
+                        "date": "2018-06-08 21:36",
+                        "ingredientName": "Sopressa Hot Salami",
+                        "day4": 0,
+                        "inOrder": true,
+                        "day3": 0
+                    },
+                    {
+                        "date": "2018-06-08 16:22",
+                        "day7": 0,
+                        "day6": 0,
+                        "inOrder": true,
+                        "day5": 0,
+                        "isSelectedExtra": true,
+                        "day4": 0,
+                        "isSelected": true,
+                        "day1": 0,
+                        "ingredientCategory": "AARC223uWoYFuqaYjG8n",
+                        "key": "-LET2tUuDB7tsw3vKYOX",
+                        "day2": 0,
+                        "agregateSales": 0,
+                        "ingredientName": "Onion",
+                        "price": "1.00",
+                        "_id": "3OKEgAsFMJgGDZfYaIFM",
+                        "day3": 0
+                    },
+                    {
+                        "_id": "431a4SirlgVbgdvoTWm3",
+                        "isSelected": true,
+                        "key": "-LET3-oObGR7SC039dmI",
+                        "day7": 0,
+                        "day3": 0,
+                        "day1": 0,
+                        "day4": 0,
+                        "agregateSales": 0,
+                        "date": "2018-06-08 16:23",
+                        "ingredientCategory": "AARC223uWoYFuqaYjG8n",
+                        "inOrder": true,
+                        "day6": 0,
+                        "price": "1.00",
+                        "day2": 0,
+                        "day5": 0,
+                        "isSelectedExtra": true,
+                        "ingredientName": "Button Mushroom"
+                    },
+                    {
+                        "day2": 0,
+                        "_id": "3r5QMBkIxJOw2zQ4bJeR",
+                        "day3": 0,
+                        "day1": 0,
+                        "price": "1.00",
+                        "day5": 0,
+                        "agregateSales": 0,
+                        "date": "2018-06-08 16:23",
+                        "isSelected": true,
+                        "day7": 0,
+                        "day4": 0,
+                        "ingredientName": "Red Capsicum",
+                        "inOrder": true,
+                        "key": "-LET33sF40I-VDNNgFeG",
+                        "isSelectedExtra": true,
+                        "ingredientCategory": "AARC223uWoYFuqaYjG8n",
+                        "day6": 0
+                    }
+                ],
+                "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                "displayOrder": 20,
+                "_id": "y2T5lUHgemh7Wz3RSToZ",
+                "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                "date": "2018-07-13 02:07",
+                "selectedExtraIngredients": [],
+                "dateTimestamp": 1531391820000,
+                "isHalf": false,
+                "itemType": 0,
+                "isAvailable": true,
+                "totalRevenue": 3236.2,
+                "url": "https://firebasestorage.googleapis.com/v0/b/next-order.appspot.com/o/images%2FmenuItems%2Fthumbnail%2F-LDgQDtAjQ0RRHii0ESF?alt=media&token=4735b038-e2c9-4358-83d8-c70d67c1d1f3",
+                "removedIngredients": [],
+                "selectedSizes": [
+                    {
+                        "isAvailable": true,
+                        "isAvailableGlutenFree": true,
+                        "glutenAdditionalCharges": 0,
+                        "name": "Family",
+                        "date": "2018-01-23T11:26:59+05:30",
+                        "price": "25.90",
+                        "_id": "FoAXOq9dv06sjLSqoCaU",
+                        "isGlutenFree": false,
+                        "isFeaturedSize": false,
+                        "variants": [],
+                        "isAbbreviationShow": false,
+                        "key": "-L3W_pk-oFi-gpVjFEXf",
+                        "categoryId": "bIcqBPjGrPZUHCcl0GEH",
+                        "isDisabled": false,
+                        "quantity": 2
+                    }
+                ],
+                "categoryId": "bIcqBPjGrPZUHCcl0GEH",
+                "urlS3": "https://lacampa.s3.ap-southeast-2.amazonaws.com/public/-LDgQDtAjQ0RRHii0ESF",
+                "description": "Tomato, mozzarella, ham,mushroom, capsicum, onion, smoked bacon,sopressa hot salami",
+                "name": "chef special"
+            },
+            {
+                "description": "Nutella, sliced Banana and a sprinkling of icing",
+                "isAvailable": true,
+                "totalRevenue": 0,
+                "restaurantId": "LNUpjrfJRjHPrtpiAbKO",
+                "selectedExtraIngredients": [],
+                "itemType": 0,
+                "storeId": "8Qr0iiwEbtUh2Gui8AU9",
+                "_id": "SOPg1O5PaAFFyiUeatKX",
+                "name": "nutella and banana pizza",
+                "removedIngredients": [],
+                "dateTimestamp": 1531439820000,
+                "selectedSizes": [
+                    {
+                        "name": "Large",
+                        "glutenAdditionalCharges": "4",
+                        "_id": "X9Szqf6i23T6qh2cy80p",
+                        "isAbbreviationShow": false,
+                        "isFeaturedSize": false,
+                        "date": "2018-06-16 13:52",
+                        "isAvailable": true,
+                        "isAvailableGlutenFree": true,
+                        "price": "11.90",
+                        "isGlutenFree": true,
+                        "categoryId": "UGfSuaF7WcOm43RqY6Xh",
+                        "quantity": 1,
+                        "key": "-LF5iKw_ehE76X4gN-iw",
+                        "variants": []
+                    }
+                ],
+                "url": "https://firebasestorage.googleapis.com/v0/b/next-order.appspot.com/o/images%2FmenuItems%2Fthumbnail%2F-LDgb2AEz1WsLIRVh975?alt=media&token=4b8509c4-2593-4b35-a3de-7a4a0d81a3a2",
+                "orderIndex": 7,
+                "date": "2018-07-13 15:27",
+                "isHalf": false,
+                "urlS3": "https://lacampa.s3.ap-southeast-2.amazonaws.com/public/-LDgb2AEz1WsLIRVh975",
+                "displayOrder": 5,
+                "selectedIngredients": [
+                    {
+                        "_id": "1FyQeKxqZIso3150F5eB",
+                        "key": "-LF5jNVpN4v8sXTxLfTn",
+                        "price": "1.50",
+                        "day2": 0,
+                        "day3": 0,
+                        "day5": 0,
+                        "agregateSales": 0,
+                        "inOrder": true,
+                        "isSelected": true,
+                        "isSelectedExtra": false,
+                        "date": "2018-06-16 13:57",
+                        "ingredientCategory": "wVLJG8Um37L6pnccdse8",
+                        "day6": 0,
+                        "ingredientName": "Banana",
+                        "day7": 0,
+                        "day1": 0,
+                        "day4": 0
+                    }
+                ],
+                "categoryId": "UGfSuaF7WcOm43RqY6Xh"
+            }
+        ],
+        "orderFrom": "1",
+        "deliveryCode": "491707",
+        "cardCountry": "US",
+        "cardType": "6",
+        "orderType": "1",
+        "date": "2020-10-13 21:10",
+        "mobileNumber": "09687565963",
+        "publicHolidaySurchargePer": "0",
+        "publicHolidaySurcharge": "0",
+        "isDisplayGST": false,
+        "nthOrder": 110,
+        "shiftId": "hJTqho8yrBm78DevAsaH",
+        "voucherName": "",
+        "rewards": [
+            {
+                "isComplete": true,
+                "slots": [
+                    {
+                        "sizeKeyMatched": "X9Szqf6i23T6qh2cy80p",
+                        "removedIngredients": [],
+                        "modifierKeys": [],
+                        "sizeKeys": [
+                            "7lTGfCZbDAMVxTALqq8s",
+                            "IoP7GIJ8RfqSMzoOHk5u",
+                            "MUEJlrezO8ZWwBPQIiEX",
+                            "X9Szqf6i23T6qh2cy80p"
+                        ],
+                        "menuItems": [],
+                        "orderIndex": 7,
+                        "isHalf": false,
+                        "isSlotOccupied": true,
+                        "selectedExtraIngredients": [],
+                        "id": 1,
+                        "itemId": "SOPg1O5PaAFFyiUeatKX",
+                        "primaryKey": 10,
+                        "categoryKeys": [
+                            "UGfSuaF7WcOm43RqY6Xh"
+                        ],
+                        "isSecondHalf": false,
+                        "name": "nutella and banana pizza"
+                    }
+                ],
+                "discount": "11.90",
+                "name": "Free Dessert With 5th Traditional Pizza Order",
+                "_id": "Lpev9XE8Pukxm2Q0RPHQ"
+            }
+        ],
+        "isProcessedForCommision": true,
+        "creditCardCharges": "3.20",
+        "cardDescription": "Visa",
+        "deliveryDate": "2020-10-13 21:30",
+        "dateTimestamp": 1602583831520
+    }
+}
