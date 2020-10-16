@@ -8,9 +8,6 @@ const epson = window.epson
 var ePosDev = new epson.ePOSDevice();
 var builder = new epson.ePOSBuilder();
 
-console.log(builder);
-
-
 
 export const PrinterProvider = ({ children }) => {
     // const [[deviceIP, devicePort], setDevice] = useState([])
@@ -21,7 +18,11 @@ export const PrinterProvider = ({ children }) => {
     // var printer = null;
 
 
-    var address = 'http://192.168.1.17/cgi-bin/epos/service.cgi?devid=local_printer&time? out=9100';
+    // var address = 'http://192.168.1.162/cgi-bin/epos/service.cgi?devid=local_printer&time&out=9100';
+    var address = 'http://192.168.1.162:9100/cgi-bin/epos/service.cgi?devid=local_printer&timeout=10000';
+
+
+
     //Create ePOSPrint object
     var epos = new epson.ePOSPrint(address);
     //Create ePOSBuilder object
@@ -91,8 +92,10 @@ export const PrinterProvider = ({ children }) => {
 
     epos.send(builder.toString());
 
+    const print = () => {epos.send(builder.toString());}
 
-    return <PrinterContext.Provider value={{ connect:()=>{}}}>
+
+    return <PrinterContext.Provider value={{ connect:()=>{}, print}}>
         {children}
     </PrinterContext.Provider>
 }
