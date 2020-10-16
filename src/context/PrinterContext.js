@@ -21,7 +21,7 @@ export const PrinterProvider = ({ children }) => {
     // var printer = null;
 
 
-    var address = 'http://192.168.192.168/cgi-bin/epos/service.cgi?devid=local_printer&time? out=60000';
+    var address = 'http://192.168.1.17/cgi-bin/epos/service.cgi?devid=local_printer&time? out=9100';
     //Create ePOSPrint object
     var epos = new epson.ePOSPrint(address);
     //Create ePOSBuilder object
@@ -67,7 +67,7 @@ export const PrinterProvider = ({ children }) => {
     builder.addText('==========================================\n');
     builder.addTextStyle(false, false, true, builder.COLOR_1);
     builder.addText('Notes                                     \n');
-    builder.addTextStyle(false, false, false, pribuildernter.COLOR_1);
+    builder.addTextStyle(false, false, false, builder.COLOR_1);
     builder.addText('N/A                                       \n');
     builder.addText('==========================================\n');
     builder.addTextSize(1, 2);
@@ -87,12 +87,12 @@ export const PrinterProvider = ({ children }) => {
     builder.addText('2 Large Pizzas                       -8.10\n');
     builder.addText('2 Large Pizzas                       -8.10\n');
     builder.addText('******************************************\n');
-    builder.send();
+
 
     epos.send(builder.toString());
 
 
-    return <PrinterContext.Provider value={{ connect }}>
+    return <PrinterContext.Provider value={{ connect:()=>{}}}>
         {children}
     </PrinterContext.Provider>
 }
