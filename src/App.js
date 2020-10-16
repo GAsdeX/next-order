@@ -10,7 +10,7 @@ const Printer = () => {
   const {print, setDevice, connect} = useContext(PrinterContext) 
 
   useEffect(() => {
-    connect(['192.168.1.162', '9100'])
+    connect('192.168.1.162', '9100')
   }, [])
 
   return (
