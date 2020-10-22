@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Order } from "../parsers/ParseOrder";
 import {addIP, getIPs} from "./actions";
+import axios from 'axios'
 
 export const PrinterContext = React.createContext({})
 
@@ -13,6 +14,9 @@ export const PrinterProvider = ({ children }) => {
     const [status, setStatus] = useState(null)
     const [printers, setPrinters] = useState([])
     const [counts, setCounts] = useState();
+    const [isTcp, setIsTcp] = useState();
+
+    const useTcp = () => setIsTcp(!isTcp)
 
     const address = (ip) =>
         `http://${ip}/cgi-bin/epos/service.cgi?devid=local_printer&timeout=10000`;
@@ -80,23 +84,30 @@ export const PrinterProvider = ({ children }) => {
     }
 
     const print = (deviceIP) => {
-        const epos = new epson.ePOSPrint(address(deviceIP))
-        const builder = new epson.ePOSBuilder();
+        if (isTcp) {
+            axios.post('localhost:3001/', {
+                ip: deviceIP
+            })
+        } else {
+            const epos = new epson.ePOSPrint(address(deviceIP))
+            const builder = new epson.ePOSBuilder();
 
-        const builtOrder = new Order(builder, order, 46)
+            const builtOrder = new Order(builder, order, 46)
 
-        setPrinter([epos, builtOrder.printer]);
+            setPrinter([epos, builtOrder.printer]);
 
-        epos.onreceive = onReceive(epos);
-        epos.onerror = function (res) {
-            alert("Job failed with status: ");
+            epos.onreceive = onReceive(epos);
+            epos.onerror = function (res) {
+                alert("Job failed with status: ");
 
-            if (window.confirm("Retry?")) {
-                epos.send(builder.toString());
-            }
-        };
+                if (window.confirm("Retry?")) {
+                    epos.send(builder.toString());
+                }
+            };
 
-        epos.send(builder.toString());
+            epos.send(builder.toString());
+        }
+
     }
 
     const addPrinter = (printer) => {
@@ -110,7 +121,7 @@ export const PrinterProvider = ({ children }) => {
         }
     }
 
-    return <PrinterContext.Provider value={{ connect: () => { }, print, setDeviceIp, deviceIP, setPrinters, addPrinter, printers }}>
+    return <PrinterContext.Provider value={{ connect: () => { }, print, setDeviceIp, deviceIP, setPrinters, addPrinter, printers, isTcp, useTcp }}>
         {children}
     </PrinterContext.Provider>
 }

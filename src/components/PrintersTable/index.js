@@ -3,8 +3,6 @@ import React from "react";
 import styles from "./styles.module.scss"
 
 export const PrintersTable = ({printers, print}) => {
-
-    console.log(printers)
     return printers ? (
         <table className={styles.Table}>
             <thead>
