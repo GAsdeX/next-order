@@ -1,101 +1,131 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Order } from "../parsers/ParseOrder";
+import {addIP, getIPs} from "./actions";
 
 export const PrinterContext = React.createContext({})
 
-
-
 const epson = window.epson
-var ePosDev = new epson.ePOSDevice();
-var builder = new epson.ePOSBuilder();
-
 
 export const PrinterProvider = ({ children }) => {
-    // const [[deviceIP, devicePort], setDevice] = useState([])
+    const [deviceIP, setDeviceIp] = useState(null)
     const [printer, setPrinter] = useState(null)
+    const [order, setOrder] = useState(null)
     const [status, setStatus] = useState(null)
-    const ref = useRef(null)
+    const [printers, setPrinters] = useState([])
+    const [counts, setCounts] = useState();
 
-    // var printer = null;
+    const address = (ip) =>
+        `http://${ip}/cgi-bin/epos/service.cgi?devid=local_printer&timeout=10000`;
 
+    useEffect(() => {
+        setPrinters(getIPs());
+    }, [])
 
-    // var address = 'http://192.168.1.162/cgi-bin/epos/service.cgi?devid=local_printer&time&out=9100';
-    var address = 'http://192.168.1.162:9100/cgi-bin/epos/service.cgi?devid=local_printer&timeout=10000';
+    const onReceive = (epos) => (res) => {
+        // Obtain the print result and error code
+        var msg = 'Print' + (res.success ? 'Success' : 'Failure') + '\nCode:' + res.code
+            + '\nStatus:\n';
+        // Obtain the printer status
+        var asb = res.status;
+        if (asb & epos.ASB_NO_RESPONSE) {
+            msg += ' No printer response\n';
+        }
+        if (asb & epos.ASB_PRINT_SUCCESS) {
+            msg += ' Print complete\n';
+        }
+        if (asb & epos.ASB_DRAWER_KICK) {
+            msg += ' Status of the drawer kick number 3 connector pin = "H"\n';
+        }
+        if (asb & epos.ASB_OFF_LINE) {
+            msg += ' Offline status\n';
+        }
+        if (asb & epos.ASB_COVER_OPEN) {
+            msg += ' Cover is open\n';
+        }
+        if (asb & epos.ASB_PAPER_FEED) {
+            msg += ' Paper feed switch is feeding paper\n';
+        }
+        if (asb & epos.ASB_WAIT_ON_LINE) {
+            msg += ' Waiting for online recovery\n';
+        }
+        if (asb & epos.ASB_PANEL_SWITCH) {
+            msg += ' Panel switch is ON\n';
+        }
+        if (asb & epos.ASB_MECHANICAL_ERR) {
+            msg += ' Mechanical error generated\n';
+        }
+        if (asb & epos.ASB_AUTOCUTTER_ERR) {
+            msg += ' Auto cutter error generated\n';
+        }
+        if (asb & epos.ASB_UNRECOVER_ERR) {
+            msg += ' Unrecoverable error generated\n';
+        }
+        if (asb & epos.ASB_AUTORECOVER_ERR) {
+            msg += ' Auto recovery error generated\n';
+        }
+        if (asb & epos.ASB_RECEIPT_NEAR_END) {
+            msg += ' No paper in the roll paper near end detector\n';
+        }
+        if (asb & epos.ASB_RECEIPT_END) {
+            msg += ' No paper in the roll paper end detector\n';
+        }
+        if (asb & epos.ASB_BUZZER) {
+            msg += ' Sounding the buzzer (limited model)\n';
+        }
+        if (asb & epos.ASB_SPOOLER_IS_STOPPED) {
+            msg += ' Stop the spooler\n';
+        }
+        //Display in the dialog box
+        alert(msg);
+    }
 
+    const print = (deviceIP) => {
+        const epos = new epson.ePOSPrint(address(deviceIP))
+        const builder = new epson.ePOSBuilder();
 
+        const builtOrder = new Order(builder, order, 46)
 
-    //Create ePOSPrint object
-    var epos = new epson.ePOSPrint(address);
-    //Create ePOSBuilder object
-    var builder = new epson.ePOSBuilder();
-    //Register the event
-    epos.onreceive = function (res) { alert(res.success); };
-    //Create the printing data 
-    
-    builder.addText('Hello\n');
-    //Send the printing data 
-    
-    builder.addFeed();
-    builder.addFeed();
-    builder.addFeed();
-    builder.addTextSize(1, 2);
-    builder.addTextAlign(builder.ALIGN_CENTER);
-    builder.addText('Town and Country Pizza\n');
-    builder.addTextSize(1, 1);
-    builder.addText('406/173-199 Pioneer Rd\n');
-    builder.addText('Geelong, VIC 3216\n');
-    builder.addFeed();
-    builder.addText('*** Kitchen ***\n');
-    builder.addText('==========================================\n');
-    builder.addTextSize(1, 2);
-    builder.addTextFont(builder.FONT_SPECIAL_A);
-    builder.addTextStyle(false, false, true, builder.COLOR_1);
-    builder.addText('Online Pre-order Delivery\n');
-    builder.addText('Code: 703944\n');
-    builder.addTextStyle(false, false, false, builder.COLOR_1);
-    builder.addTextSize(1, 1);
-    builder.addTextAlign(builder.ALIGN_CENTER);
-    builder.addTextFont(builder.FONT_A);
-    builder.addText('Placed                   Tue 13th 05:12:PM\n');
-    builder.addText('Expected                             06:30\n');
-    builder.addTextFont(builder.FONT_A);
-    builder.addTextStyle(false, false, false, builder.COLOR_1);
-    builder.addText('==========================================\n');
-    builder.addTextStyle(false, false, true, builder.COLOR_1);
-    builder.addText('Customer                                  \n');
-    builder.addTextStyle(false, false, false, builder.COLOR_1);
-    builder.addText('Will Richards - 0419371396                \n');
-    builder.addText('6 Bexley Court, Highton                   \n');
-    builder.addText('==========================================\n');
-    builder.addTextStyle(false, false, true, builder.COLOR_1);
-    builder.addText('Notes                                     \n');
-    builder.addTextStyle(false, false, false, builder.COLOR_1);
-    builder.addText('N/A                                       \n');
-    builder.addText('==========================================\n');
-    builder.addTextSize(1, 2);
-    builder.addText('3 Large Hawaiian                          \n');
-    builder.addText('2 Large Country Special                   \n');
-    builder.addFeed();
-    builder.addText('                        Delivery Fee: 5.00\n');
-    builder.addText('                    Total (Inc GST): 95.00\n');
-    builder.addText('                     *ORDER NOT PAID-CASH*\n');
-    builder.addTextSize(1, 1);
-    builder.addText('==========================================\n');
-    builder.addTextStyle(false, false, true, builder.COLOR_1);
-    builder.addText('Specials                                  \n');
-    builder.addTextStyle(false, false, false, builder.COLOR_1);
-    builder.addTextSize(1, 2);
-    builder.addText('2 Large Pizzas                       -8.10\n');
-    builder.addText('2 Large Pizzas                       -8.10\n');
-    builder.addText('2 Large Pizzas                       -8.10\n');
-    builder.addText('******************************************\n');
+        setPrinter([epos, builtOrder.printer]);
 
+        epos.onreceive = onReceive(epos);
+        epos.onerror = function (res) {
+            alert("Job failed with status: ");
 
-    epos.send(builder.toString());
+            if (window.confirm("Retry?")) {
+                epos.send(builder.toString());
+            }
+        };
 
-    const print = () => {epos.send(builder.toString());}
+        epos.send(builder.toString());
+    }
 
+    const addPrinter = (printer) => {
+        addIP(printer);
+        const printers = getIPs()
 
-    return <PrinterContext.Provider value={{ connect:()=>{}, print}}>
+        if (printers instanceof Array) {
+            setPrinters(printers);
+        } else {
+            setPrinters([printer]);
+        }
+    }
+
+    return <PrinterContext.Provider value={{ connect: () => { }, print, setDeviceIp, deviceIP, setPrinters, addPrinter, printers }}>
         {children}
     </PrinterContext.Provider>
 }
+
+// useEffect(() => {
+//     const epos = new epson.ePOSPrint(address(deviceIP))
+//     const builder = new epson.ePOSBuilder();
+//
+//     const builtOrder = new Order(builder, order, 46)
+//
+//     setPrinter([epos, builtOrder.printer]);
+//
+//     epos.onreceive = onReceive;
+//     epos.onerror = function (res) {
+//         alert("Job failed");
+//     };
+//
+// }, [deviceIP])
